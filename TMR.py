@@ -1,14 +1,9 @@
 """
 SISTEMA DE CONTROL PARA ROBOT FUTBOL - VISIÓN POR COMPUTADORA
-Versión con control simultáneo PD/PID (avance y giro al mismo tiempo).
+Control simultáneo PD/PID (avance y giro al mismo tiempo).
 Ganancias adaptativas suave-lejos / agresivo-cerca.
 Prioridad posición real pelota, predictor robots, exposición fija.
-MODIFICADO PARA USAR CONFIGURACIÓN HSV (calibrador)
-
-NUEVAS FUNCIONALIDADES:
-- Repulsión activa de bordes de la cancha.
-- Alternar equipo (amarillo/azul) con tecla 'e' (compatible con JSON de estructura plana).
-- Recuperación automática de robots perdidos (giro lento).
+Desarrollado por: M. en C. José Manuel Mercado Blanco
 """
 
 import cv2
