@@ -1,6 +1,8 @@
 # =============================================================================
 # CALIBRADOR ROBÓTICO - HERRAMIENTA DE CONFIGURACIÓN INICIAL (VERSIÓN HSV)
 # =============================================================================
+# Desarrollado por: M. en C. José Manuel Mercado Blanco
+
 # Este programa debe ejecutarse antes del sistema de control principal.
 # Permite:
 #   1. Seleccionar el equipo (azul o amarillo) -> guarda IDs de ArUco.
